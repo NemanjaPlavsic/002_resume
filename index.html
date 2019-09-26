@@ -1,170 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nemanja Plavsic | Resume</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Sans" rel="stylesheet">
-    <link rel="icon" type="image/jpg" href="_images/Profile_photo.jpg" target="_blank">
-    <link rel="stylesheet" type="text/css" href="_css/style.css">
-</head>
-<body>
-    <!-- Intro --><header role="banner" id="about">
-        <a href="_pdf/01_resume.pdf" class="btn download" target="_blank" download>Download PDF</a>
-   <nav>
-      <a href="#about">About me</a>
-            <a href="#work">Work experience</a>
-       <a href="#education">Education</a>
-     <a href="#contact">Contact me</a>
-        </nav>
-        <div class="content-wrap">
-            <img class="profile-img col-narrow" src="_images/Profile_photo.jpg" alt="Nemanja Plavsic">
-            <div class="col-wide">
-                <h1>Nemanja Plavsic</h1>
-                <h2>Project Manager / Technical Engineer</h2>
-                <p>Extensive experience with contracting and consulting companies working on different projects in Europe and Middle East reaching in various fields of Civil Engineering</p>
-                <p>Responsible for preparation of technical documents so projects and daily operatons can run smoothly. Preparation of tender documentation, quotations and calculation of project costs are daily tasks that I, as a part of Technical Department, undertake.</p>
-                <p>Have knowledge and experience in project management and planning as well in writing deailed reporst in order to meet major deliverables. Also, I organize  and run meetings with clients, consultants and sub-contractor, supervise and coordinate between teams on the site and in the office.</p>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nemanja Plavsic | About</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet" />
+
+    <!-- ? -- CDN for Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!-- TODO: Find better icon/picture! -->
+    <link rel="icon" type="image/jpg" href="_images/Profile_photo.jpg" target="_blank" />
+
+    <!-- ? -- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="_css/mainStyle.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0 m-0" href="#">Nemanja Plavsic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"></ul>
+          <!-- TODO: Insert card as a contact form - name, email and text box
+          <form class="form-inline my-0 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search" />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Contact Me</button>
+          </form> -->
         </div>
-    </header>
-
-    <main role="main"> 
-        <!-- // Work Experience -->
-        <section class="work" id="work">
-            <div class="content-wrap">
-                <h2>Work Experience</h2>
-                <!-- Job 1 Details -->
-                <div class="col-narrow">
-                    <h3>Technical Engineer</h3>
-                    <p class="uppercase">Ecocoast Contracting LLC&comma; Dubai&comma; UAE</p>
-                    <p>December 2017. - present</p>
-                </div>
-                <div class="col-wide job-description">
-                    <p>Responsibilities:</p>
-                    <ul>
-                        <li>Liaising with clients, consultants and sub-contractors&#59;</li>
-                        <li>Logistics and mobilization plans&#59;</li>
-                        <li>Technical procedures for site activities&#59;</li>
-                        <li>Design, calculations revision and technical support for
-                        onstruction site&#59;</li>
-                        <li>Detailed report writing;</li>
-                        <li>Preparing tender documentation and cost estimations&#59;</li>
-                        <li>Project planning, cost control and project budgeting&#59;</li>
-                        <li>Site supervision, coordination between teams and
-                        delegating tasks&#59;</li>
-                        <li>Research & Development for new products&#46;</li>
-                    </ul>
-                </div>
-                <!-- Job 2 details -->
-                <div class="col-narrow">
-                    <h3>Technical Engineer</h3>
-                    <p class="uppercase">Ecobarrier Manufacturing LLC&comma; Dubai&comma; UAE</p>
-                    <p>December 2017. - present</p>
-                </div>
-                <div class="col-wide job-description">
-                    <p>Responsibilities:</p>
-                    <ul>
-                        <li>Ecobarrier is leading the market in new marine solutions (manufacturing several product lines: buoys, silt curtains, oil booms, geosynthetics) so as a part of Technical department I am supporting manufacturing side with all kind of technical solutions for the products&#46;</li>
-                    </ul>
-                </div>
-                <!-- Job 3 details -->
-                <div class="col-narrow">
-                    <h3>Technical / Project Engineer</h3>
-                    <p class="uppercase">UPG Surveying&comma; Abu Dhabi&comma; UAE</p>
-                    <p>February 2016. - December 2017.</p>
-                </div>
-                <div class="col-wide job-description">
-                    <p>Responsibilities:</p>
-                    <ul>
-                        <li>Project planning, scheduling of work and delegation of tasks&#59;</li>
-                        <li>Coordination and management between teams and projects&#59;</li>
-                        <li>Logistics and mobilization plans&#59;</li>
-                        <li>Technical procedures documentation and detail report writing&#59;</li>
-                        <li>Liaising with clients, consultants and sub-consultants&#59;</li>
-                        <li>Site visits and managing daily operations&#59;</li>
-                        <li>Working as Lead/Main Engineer on as built drawings and modelling of roads and residential infrastructure&#59;</li>
-                        <li>Analysing and processing data acquired on sites by survey technicians&#59;</li>
-                        <li>QA and QHSE compliance&#59;</li>
-                        <li>Tender management (assisting in project proposals)&#59;</li>
-                        <li>Research & Development of new technologies for implementation in our business&#46;</li>
-                    </ul>
-                </div>
-                <!-- Job 4 details -->
-                <div class="col-narrow">
-                    <h3>Civil / Project Engineer for Infrastructure Design</h3>
-                    <p class="uppercase">Civil Engineering Institute &quot;IG&quot;&comma; Banja Luka&comma; Bosnia and Herzegovina</p>
-                    <p>November 2013. - February 2016.</p>
-                </div>
-                <div class="col-wide job-description">
-                    <p>Responsibilities:</p>
-                    <ul>
-                        <li>Managing with multidisciplinary teams for different projects at the same time&#59;</li>
-                        <li>Working closely with Project Managers and Senior Engineers&#59;</li>
-                        <li>Liaising with clients, investors, sub-consultants and contractors&#59;</li>
-                        <li>Detailed report writing, planning and tracking of daily activities&#59;</li>
-                        <li>Preparation of technical specifications and bill of quantities for projects&#59;</li>
-                        <li>Design development of roads and road objects, highways, city streets, access roads and parking areas&#59;</li>
-                        <li>Design development of transportation infrastructure in residential areas (parking, city squares, pedestrian areas, cycle tracks, footpaths)&#59;</li>
-                        <li>Design development of transportation infrastructure in industrial areas (access roads to forest estates, internal roads in thermal power plants)&#59;</li>
-                        <li>Design development of underground utilities&#59;</li>
-                        <li>Making sure of compliance with QA and QHSE standards&#59;</li>
-                        <li>Revision, evaluation and verification of technical documentation&#46;</li>
-                    </ul>
-                </div>
-                <!-- Job 5 details -->
-                <div class="col-narrow">
-                    <h3>Civil Engineer</h3>
-                    <p class="uppercase">Prijedorputevi AD - Fortis Group&comma; Prijedor&comma; Bosnia and Herzegovina</p>
-                    <p>May 2012. – October 2013.</p>
-                </div>
-                <div class="col-wide job-description">
-                    <p>Responsibilities:</p>
-                    <ul>
-                        <li>Preparation of shop drawings on site&#59;</li>
-                        <li>Daily reports for construction progress&#59;</li>
-                        <li>Supervision of construction site to ensure QA and QHSE standards are followed&#59;</li>
-                        <li>Supervision on erection of temporary structures&#46;</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- end of Job Details block. -->
-        </section>
-
-
-        <!-- // Education -->
-        <section class="education" id="education">
-            <div class="content-wrap">
-                <h2>Education</h2>
-
-                <!-- School details: copy this whole block to add more schools. -->
-                <h3>Faculty of Technical Sciences&comma; University of Novi Sad&comma; Serbia</h3>
-                <p><strong>Master's degree</strong></p>
-                <p>Civil Engineering – Roads&comma; Highways&comma; Bridges and other Civil Structures</p>
-                <p><strong>Bachelor with Honours degree</strong></p>
-                <p>Civil Engineering – General</p>
-                <!-- End of school details. -->
-            </div>
-        </section>
-        <!-- Add Certification here -->
-        <!-- Add Engineering and Software skills on the side -->
-    </main>
-
-    <!-- // Footer & contact info -->
-    <footer id="contact">
-        <div class="content-wrap">
-            <h2>Let's Keep in Touch!</h2>
-
-            <!-- Social media and contact links. Add or remove any networks. -->
-            <div class="contact-info">
-                <p>Here is my phone number:<br>+971 56 209 8076</p>
-                <p>You can also contact me via:</p>
-                <a href="mailto:nemanjaplavsic@gmail.com"><i class="fas fa-envelope"></i><span class="sr-only">Email</span></a>
-                <a href="http://www.linkedin.com/in/nemanjaplavsic" target="_blank"><i class="fab fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
-            </div>
-            <p>&#169; 2018 by Nemanja Plavsic</p>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="content">
+            <h1>Hi, I'm Nemanja</h1>
+            <h3>This is my portfolio. If you would like to get to know me, click below!</h3>
+            <hr />
+            <a class="btn btn-light btn-lg" href="#">Web Developer</a>
+            <a class="btn btn-light btn-lg" href="civil.html">Civil Engineer</a>
+          </div>
         </div>
-    </footer>
-</body>
+      </div>
+    </div>
+    <!-- ? -- Optional JavaScript -->
+    <!-- ? -- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
